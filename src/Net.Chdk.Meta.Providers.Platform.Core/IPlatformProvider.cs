@@ -1,4 +1,4 @@
-﻿using Net.Chdk.Meta.Model.CameraModel;
+﻿using Net.Chdk.Meta.Model.Platform;
 using System.Collections.Generic;
 
 namespace Net.Chdk.Meta.Providers.Platform
