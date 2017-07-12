@@ -5,7 +5,7 @@ namespace Net.Chdk.Meta.Providers.Platform
 {
     public interface IInnerPlatformProvider
     {
-        IEnumerable<KeyValuePair<string, string>> DoGetPlatforms(TextReader reader);
+        IEnumerable<KeyValuePair<string, string>> GetPlatforms(TextReader reader);
         string Extension { get; }
     }
 }
